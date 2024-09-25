@@ -1,0 +1,8 @@
+app:
+  name: test_viper
+  port: :8000
+
+database:
+  dsn: root:123@tcp(127.0.0.1:3306)/test_viper?charset=utf8mb4&parseTime=True&loc=Local
+  maxIdleConns: 10
+  maxOpenConns: 100
